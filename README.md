@@ -7,11 +7,11 @@ int main(void){
 
   float nota1, nota2, nota3, media;
  
-  printf("Insira a nota da primeira prova: ");
+  printf("Insira a nota da primeira prova: \n");
   scanf("%f", &nota1);
-  printf("Insira a nota da segunda prova: ");
+  printf("Insira a nota da segunda prova: \n");
   scanf("%f",&nota2);
-  printf("Insira a nota da terceira prova: ");
+  printf("Insira a nota da terceira prova: \n");
   scanf("%f",&nota3);
 
   media = (nota1 + nota2 + nota3) / 3;
